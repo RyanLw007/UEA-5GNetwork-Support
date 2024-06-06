@@ -2,6 +2,8 @@
 
 ## The first step is to download the kubernetes bundle, but we will not install yet
 
+this code installs kubernetes 1.30, to change this, change the version retrieved in the code below
+
 <div>
     <button onclick="copyToClipboard()">Copy Code</button>
     <pre id="codeBlock">
