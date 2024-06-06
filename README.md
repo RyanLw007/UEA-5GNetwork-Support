@@ -1,8 +1,26 @@
 # UEA-5GNetwork-Support
 
-This repository is built to give a guide for how to install kubernetes using Minikube
-details will be added to explain what you can change to support your chosen configuration
+[kubernetes.md](./kubernetes.md) provides instructions on how to create a kubernetes cluster
+using Minikube, there is information on what can be changed to support your scenario.
 
-We will also include a script created to manipulate VM's.
+[vmstart.sh](./vmstart.sh) is a bash script that starts a vm with a given name.
+to run this you must first allow it to run with
+<div>
+    <button onclick="copyToClipboard()">Copy Code</button>
+    <pre id="codeBlock">
+    <code>
+    chmod +X vmstart.sh
+    </code>
+    </pre>
+</div>
+to run the script type
+<div>
+    <button onclick="copyToClipboard()">Copy Code</button>
+    <pre id="codeBlock">
+    <code>
+    ./vmstart.sh "Your_VM_Name"
+    </code>
+    </pre>
+</div>
 
 This is included as it was a part of our research project and it could be useful for other configurations
