@@ -90,17 +90,3 @@ change the requirements as needed for the situation as this likely won't be suit
     </code>
     </pre>
 </div>
-
-
-<div style="display: none;">
-    <script>
-    function copyToClipboard() {
-        var code = document.getElementById('codeBlock').innerText;
-        navigator.clipboard.writeText(code).then(function() {
-            alert('Code copied to clipboard!');
-        }, function(err) {
-            console.error('Could not copy text: ', err);
-        });
-    }
-    </script>
-</div>
