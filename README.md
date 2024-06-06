@@ -24,3 +24,7 @@ to run the script type
 </div>
 
 This is included as it was a part of our research project and it could be useful for other configurations
+
+## CoreKube
+
+Provided [here](https://github.com/RyanLw007/nervion-powder) is the fork of Nervion with minor edits in an attempt to update the Kubernetes version
