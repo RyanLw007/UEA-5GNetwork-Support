@@ -1,20 +1,5 @@
 # This file contains instructions for how to install kubernetes manually
 
-
-
-<div style="display: none;">
-    <script>
-    function copyToClipboard() {
-        var code = document.getElementById('codeBlock').innerText;
-        navigator.clipboard.writeText(code).then(function() {
-            alert('Code copied to clipboard!');
-        }, function(err) {
-            console.error('Could not copy text: ', err);
-        });
-    }
-    </script>
-</div>
-
 ## The first step is to download the kubernetes bundle, but we will not install yet
 
 <div>
@@ -104,4 +89,18 @@ change the requirements as needed for the situation as this likely won't be suit
     minikube start --cpus=6 --memory=8g --disk-size=20g --driver=docker
     </code>
     </pre>
+</div>
+
+
+<div style="display: none;">
+    <script>
+    function copyToClipboard() {
+        var code = document.getElementById('codeBlock').innerText;
+        navigator.clipboard.writeText(code).then(function() {
+            alert('Code copied to clipboard!');
+        }, function(err) {
+            console.error('Could not copy text: ', err);
+        });
+    }
+    </script>
 </div>
